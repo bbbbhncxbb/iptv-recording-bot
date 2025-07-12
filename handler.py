@@ -1,4 +1,4 @@
- from telegram.ext import Application, CommandHandler, CallbackQueryHandler
+from telegram.ext import Application, CommandHandler, CallbackQueryHandler
 from handlers.start_handler import start
 from handlers.admin_handler import handle_admin_request
 from handlers.help_handler import send_help
@@ -10,22 +10,8 @@ from telegram.ext import CommandHandler
 from handlers.record_handler import handle_find_channel
 from handlers.record_handler import show_help
 from handlers.help_handler import cancel_recording_callback
-#from handlers.mac_handler import handle_rip_command
 from telegram.ext import CommandHandler
 from features.status_broadcast import status_command, broadcast_command
-
-# ... your existing code ...
-
-
-
-# ... your existing code ...
-
-
-
-
-
-# Add to your existing handlers
-
 
 
 def register_handlers(application: Application):
@@ -56,13 +42,6 @@ def register_handlers(application: Application):
     
     from features.verify import setup_verify_handlers
 
-# ... your existing code ...
-
     setup_verify_handlers(application)
 
     
-
-
-
-    
-  #  application.add_handler(CommandHandler("rip", handle_rip_command))
