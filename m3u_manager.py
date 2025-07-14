@@ -1,4 +1,4 @@
-import requests
+ import requests
 import re
 import os
 import time
@@ -172,5 +172,5 @@ class M3UManager:
 
 # Initialize with multiple playlists
 m3u_manager = M3UManager([
-    "https://example.com/playlist.m3u",
+    "https://raw.githubusercontent.com/G21325/Sgshsj/42c5f954afba3c93db595ac1b5e5884bcce75bd7/sdgsj.m3u",
 ])
